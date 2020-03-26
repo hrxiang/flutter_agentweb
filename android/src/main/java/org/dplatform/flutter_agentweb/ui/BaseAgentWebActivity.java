@@ -30,6 +30,8 @@ import com.just.agentweb.PermissionInterceptor;
 import com.just.agentweb.WebChromeClient;
 import com.just.agentweb.WebViewClient;
 
+import org.dplatform.flutter_agentweb.R;
+
 
 public abstract class BaseAgentWebActivity extends AppCompatActivity {
     private static final String TAG = BaseAgentWebActivity.class.getSimpleName();
@@ -115,7 +117,7 @@ public abstract class BaseAgentWebActivity extends AppCompatActivity {
 
 
     protected static class ErrorLayoutEntity {
-        private int layoutRes = com.just.agentweb.R.layout.agentweb_error_page;
+        private int layoutRes = R.layout.agentweb_error_page;
         private int reloadId;
 
         public void setLayoutRes(int layoutRes) {

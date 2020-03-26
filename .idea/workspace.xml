@@ -1,44 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aee93d0-a969-4fa8-a817-47e6cf9e1539" name="Default Changelist" comment="" />
+    <list default="true" id="8aee93d0-a969-4fa8-a817-47e6cf9e1539" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flutter_agentweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter_agentweb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/org/dplatform/flutter_agentweb/ui/BaseAgentWebActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/org/dplatform/flutter_agentweb/ui/BaseAgentWebActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/providedLibs/alipaySdk-20180601.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/providedLibs/alipaySdk-20180601.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/androidTest/java/com/just/agentweb/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AbsAgentWebSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AbsAgentWebSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AbsAgentWebUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AbsAgentWebUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/ActionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/ActionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AgentWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AgentWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AgentWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AgentWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AgentWebFileProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AgentWebFileProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AgentWebJsInterfaceCompat.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AgentWebJsInterfaceCompat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AgentWebPermissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AgentWebPermissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AgentWebSettingsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AgentWebSettingsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AgentWebUIControllerImplBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AgentWebUIControllerImplBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AgentWebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AgentWebUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/AgentWebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/AgentWebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/BaseIndicatorSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/BaseIndicatorSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/BaseIndicatorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/BaseIndicatorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/BaseJsAccessEntrace.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/BaseJsAccessEntrace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/DefaultChromeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/DefaultChromeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/DefaultDesignUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/DefaultDesignUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/DefaultDownloadImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/DefaultDownloadImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/DefaultUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/DefaultUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/DefaultWebClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/DefaultWebClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/DefaultWebCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/DefaultWebCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/DefaultWebLifeCycleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/DefaultWebLifeCycleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/EventHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/EventHandlerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/EventInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/EventInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/HookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/HookManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/HttpHeaders.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/HttpHeaders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/IAgentWebSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/IAgentWebSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/IEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/IEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/IUrlLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/IUrlLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/IVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/IVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/IWebIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/IWebIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/IWebLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/IWebLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/IndicatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/IndicatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/IndicatorHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/IndicatorHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/JockeyJsConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/JockeyJsConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/JsAccessEntrace.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/JsAccessEntrace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/JsAccessEntraceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/JsAccessEntraceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/JsBaseInterfaceHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/JsBaseInterfaceHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/JsCallJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/JsCallJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/JsCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/JsCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/JsInterfaceHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/JsInterfaceHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/JsInterfaceHolderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/JsInterfaceHolderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/JsInterfaceObjectException.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/JsInterfaceObjectException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/LayoutParamsOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/LayoutParamsOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/LogUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/LogUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/LollipopFixedWebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/LollipopFixedWebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/MiddlewareWebChromeBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/MiddlewareWebChromeBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/MiddlewareWebClientBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/MiddlewareWebClientBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/NestedScrollAgentWebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/NestedScrollAgentWebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/PermissionInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/PermissionInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/ProcessUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/ProcessUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/QuickCallJs.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/QuickCallJs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/UrlCommonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/UrlCommonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/UrlLoaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/UrlLoaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/VideoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/VideoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebChromeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebChromeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebChromeClientDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebChromeClientDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebListenerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebListenerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebParentLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebParentLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebSecurityCheckLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebSecurityCheckLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebSecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebSecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebSecurityControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebSecurityControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebSecurityLogicImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebSecurityLogicImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebViewClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebViewClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/java/com/just/agentweb/WebViewClientDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/WebViewClientDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/res/layout/agentweb_error_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/layout/agentweb_error_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/res/values-zh/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/values-zh/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/res/values/ids.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/values/ids.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/res/values/style.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/values/style.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/main/res/xml/web_files_public.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/res/xml/web_files_public.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-core/src/test/java/com/just/agentweb/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-filechooser/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-filechooser/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-filechooser/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-filechooser/src/androidTest/java/com/just/agentweb/filechooser/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-filechooser/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-filechooser/src/main/java/com/just/agentweb/filechooser/FileChooser.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/filechooser/FileChooser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-filechooser/src/main/java/com/just/agentweb/filechooser/FileParcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/just/agentweb/filechooser/FileParcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-filechooser/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/agentweb-filechooser/src/test/java/com/just/agentweb/filechooser/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/consumer-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/androidTest/java/com/jockeyjs/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/CompositeJockeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/CompositeJockeyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/DefaultJockeyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/DefaultJockeyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/HostValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/HostValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/Jockey.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/Jockey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/JockeyAsyncHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/JockeyAsyncHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/JockeyCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/JockeyCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/JockeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/JockeyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/JockeyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/JockeyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/JockeyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/JockeyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/JockeyWebViewClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/JockeyWebViewClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/JockeyWebViewPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/JockeyWebViewPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/NativeOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/NativeOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/util/BackgroundExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/util/BackgroundExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/java/com/jockeyjs/util/ForwardingWebViewClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/jockeyjs/util/ForwardingWebViewClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/jockeyjs/src/test/java/com/jockeyjs/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/flutter_agentweb_test.dart" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/flutter_agentweb.dart">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -46,39 +198,21 @@
               <item name="flutter_agentweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter_agentweb" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="flutter_agentweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_agentweb" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_agentweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_agentweb" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter_agentweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter_agentweb" type="462c0819:PsiDirectoryNode" />
-              <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -113,37 +247,53 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.3297568" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info anchor="bottom" id="Dart Analysis" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.32961586" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.33404863" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Dart Analysis" order="0" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.5662949" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.51425034" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32961586" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/flutter_agentweb.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>

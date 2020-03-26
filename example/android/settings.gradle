@@ -1,4 +1,4 @@
-include ':app', ':agentweb-core', ':agentweb-filechooser', ':jockeyjs'
+include ':app'
 
 def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
 
