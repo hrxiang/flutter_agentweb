@@ -1,0 +1,40 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    buildTypes {
+        profile {
+        }
+    }
+    repositories {
+        flatDir {
+            dirs 'libs', 'providedLibs'
+        }
+    }
+//   defaultPublishConfig "debug"
+
+}
+dependencies {
+    compileOnly fileTree(include: ['*.jar'], dir: 'libs')
+    compileOnly fileTree(include: ['*.jar'], dir: 'providedLibs')
+    testImplementation 'junit:junit:4.12'
+    compileOnly 'com.download.library:Downloader:4.1.2'
+    compileOnly 'com.google.android.material:material:1.0.0'
+    compileOnly 'androidx.legacy:legacy-support-v4:1.0.0'
+}
