@@ -8,12 +8,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/example/android/agentweb-core/build/reports/tests/testDebugUnitTest/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/android/agentweb-core/build/reports/tests/testReleaseUnitTest/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/android/agentweb-filechooser/build/reports/tests/testDebugUnitTest/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/android/agentweb-filechooser/build/reports/tests/testReleaseUnitTest/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/android/jockeyjs/build/reports/tests/testDebugUnitTest/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/example/android/jockeyjs/build/reports/tests/testReleaseUnitTest/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/build" />
     </content>
     <orderEntry type="inheritedJdk" />
