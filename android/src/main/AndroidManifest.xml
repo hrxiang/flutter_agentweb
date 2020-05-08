@@ -3,7 +3,7 @@
 
     <application>
         <activity
-            android:name=".ui.EasyWebActivity"
+            android:name="org.dplatform.flutter_agentweb.ui.EasyWebActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
