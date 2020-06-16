@@ -18,7 +18,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.jockeyjs.JockeyCallback;
+import com.jockeyjs.JockeyHandler;
+
 import org.dplatform.flutter_agentweb.R;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.Map;
 
 
 public class EasyWebActivity extends BaseAgentWebActivity {
@@ -27,7 +34,32 @@ public class EasyWebActivity extends BaseAgentWebActivity {
 
     @Override
     protected void registerJockeyEvents() {
+        parseJsBundle();
+    }
 
+    private void parseJsBundle() {
+        String jsBundleString = getIntent().getStringExtra("jsBundle");
+        if (null != jsBundleString) {
+            try {
+                JSONObject jsBundle = new JSONObject(jsBundleString);
+                final String type = jsBundle.optString("type");
+                final Object params = jsBundle.opt("payload");
+                onJs(type, new JockeyHandler() {
+                    @Override
+                    protected void doPerform(Map<Object, Object> payload) {
+                        //
+                        sendJs(type, params, new JockeyCallback() {
+                            @Override
+                            public void call() {
+                                //
+                            }
+                        });
+                    }
+                });
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     @Override
@@ -46,6 +78,7 @@ public class EasyWebActivity extends BaseAgentWebActivity {
             findViewById(R.id.rl_toolbar).setVisibility(isFullScreen ? View.GONE : View.VISIBLE);
         }
     }
+
 
     @Override
     public void onBackPressed() {
@@ -99,10 +132,11 @@ public class EasyWebActivity extends BaseAgentWebActivity {
     }
 
 
-    public static void start(Activity activity, String url, String title) {
+    public static void start(Activity activity, String url, String title, String jsBundle) {
         Intent intent = new Intent(activity, EasyWebActivity.class);
         intent.putExtra("url", url);
         intent.putExtra("title", title);
+        intent.putExtra("jsBundle", jsBundle);
         activity.startActivityForResult(intent, 400);
     }
 

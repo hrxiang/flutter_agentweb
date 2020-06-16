@@ -24,7 +24,8 @@ public class FlutterAgentwebPlugin implements MethodCallHandler, PluginRegistry.
         if ("open".equals(methodCall.method)) {
             String url = methodCall.argument("url");
             String title = methodCall.argument("title");
-            EasyWebActivity.start(activity, url, title);
+            String jsBundle = methodCall.argument("jsBundle");
+            EasyWebActivity.start(activity, url, title, jsBundle);
         }
     }
 
