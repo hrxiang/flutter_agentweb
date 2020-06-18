@@ -29,6 +29,7 @@ class _MyAppState extends State<MyApp> {
               FlutterAgentweb.open(
                 url:
                     'https://cvd.xiaoduoai.com/c/index.html?src=5072&key=ltssfsdcbraopjotflieccyatvrjllhwguaexoxrifgyoapgxhlkldcgnnfqusvr&channel_id=10013&removeTopBar=true',
+                jsBundle: JsBundle(type: "login", payload: {"token": "1124"}),
               );
             },
             child: Text('Running on: $_platformVersion\n'),

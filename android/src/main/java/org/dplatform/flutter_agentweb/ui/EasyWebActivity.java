@@ -22,7 +22,6 @@ import com.jockeyjs.JockeyCallback;
 import com.jockeyjs.JockeyHandler;
 
 import org.dplatform.flutter_agentweb.R;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.Map;
@@ -44,19 +43,21 @@ public class EasyWebActivity extends BaseAgentWebActivity {
                 JSONObject jsBundle = new JSONObject(jsBundleString);
                 final String type = jsBundle.optString("type");
                 final Object params = jsBundle.opt("payload");
-                onJs(type, new JockeyHandler() {
-                    @Override
-                    protected void doPerform(Map<Object, Object> payload) {
-                        //
-                        sendJs(type, params, new JockeyCallback() {
-                            @Override
-                            public void call() {
-                                //
-                            }
-                        });
-                    }
-                });
-            } catch (JSONException e) {
+                if (null != type) {
+                    onJs(type, new JockeyHandler() {
+                        @Override
+                        protected void doPerform(Map<Object, Object> payload) {
+                            //
+                            sendJs(type, params, new JockeyCallback() {
+                                @Override
+                                public void call() {
+                                    //
+                                }
+                            });
+                        }
+                    });
+                }
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
