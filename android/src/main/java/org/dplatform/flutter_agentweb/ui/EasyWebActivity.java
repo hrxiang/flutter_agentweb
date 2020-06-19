@@ -22,6 +22,7 @@ import com.jockeyjs.JockeyCallback;
 import com.jockeyjs.JockeyHandler;
 
 import org.dplatform.flutter_agentweb.R;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.Map;
@@ -40,22 +41,28 @@ public class EasyWebActivity extends BaseAgentWebActivity {
         String jsBundleString = getIntent().getStringExtra("jsBundle");
         if (null != jsBundleString) {
             try {
-                JSONObject jsBundle = new JSONObject(jsBundleString);
-                final String type = jsBundle.optString("type");
-                final Object params = jsBundle.opt("payload");
-                if (null != type) {
-                    onJs(type, new JockeyHandler() {
-                        @Override
-                        protected void doPerform(Map<Object, Object> payload) {
-                            //
-                            sendJs(type, params, new JockeyCallback() {
-                                @Override
-                                public void call() {
-                                    //
-                                }
-                            });
-                        }
-                    });
+                JSONArray jsonArray = new JSONArray(jsBundleString);
+                System.out.println("=========== js array =====" + jsonArray);
+                JSONObject jsBundle;
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    jsBundle = jsonArray.getJSONObject(0);
+                    final String type = jsBundle.optString("type");
+                    final Object params = jsBundle.opt("payload");
+                    if (null != type) {
+                        System.out.println("======== js ========" + jsBundle);
+                        onJs(type, new JockeyHandler() {
+                            @Override
+                            protected void doPerform(Map<Object, Object> payload) {
+                                //
+                                sendJs(type, params, new JockeyCallback() {
+                                    @Override
+                                    public void call() {
+                                        //
+                                    }
+                                });
+                            }
+                        });
+                    }
                 }
             } catch (Exception e) {
                 e.printStackTrace();

@@ -8,7 +8,7 @@ class FlutterAgentweb {
   static Future<T> open<T>({
     String url,
     String title,
-    JsBundle jsBundle,
+    List<JsBundle> jsBundle,
   }) {
     return _channel.invokeMethod<T>(
       "open",
